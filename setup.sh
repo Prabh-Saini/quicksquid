@@ -1,6 +1,5 @@
 sudo apt update
 sudo apt install squid -y
-sudo nano /etc/squid/squid.conf
 wget https://raw.githubusercontent.com/Prabh-Saini/quicksquid/main/squidconfexample.txt
 cp squidconfexample.txt /etc/squid/squid.conf
 rm squidconfexample.txt
