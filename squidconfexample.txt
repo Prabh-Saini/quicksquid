@@ -1904,7 +1904,7 @@ http_access allow all
 #
 
 # Squid normally listens to port 3128
-http_port 36542
+http_port 3128
 
 #  TAG: https_port
 #       Usage:  [ip:]port [mode] tls-cert=certificate.pem [options]
