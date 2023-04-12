@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt install squid -y
-wget https://github.com/Prabh-Saini/quicksquid/blob/36542/squidconfexample.txt
+wget https://raw.githubusercontent.com/Prabh-Saini/quicksquid/36542/squidconfexample.txt
 cp squidconfexample.txt /etc/squid/squid.conf
 rm squidconfexample.txt
 sudo ufw allow 36542
